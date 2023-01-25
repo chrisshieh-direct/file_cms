@@ -1,1 +1,9 @@
-<h1>Getting started.</h1>
+<h1>Documents in the CMS:</h1>
+<ul>
+  <% @files.each do |file| %>
+    <li><a href="/<%= file %>"><%= file %></a> | <a href="/<%= file %>/edit">Edit</a> | <form action="/<%= file %>/delete" class="inline" method="post"><button type="submit">Delete</button></form></a></li>
+  <% end %>
+</ul>
+<p><a href="/new">New Document</a></p>
+<p>Signed in as <%= @username %>.</p>
+<form action="/signout" method="post"><button type="submit">Sign Out</button></form>

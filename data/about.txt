@@ -1,0 +1,5 @@
+# ABOUT THIS PROJECT
+
+**Chris Shieh** is starting this on January 21, 2023, as part of
+progress through the Launch School curriculum, specifically
+for RB175.

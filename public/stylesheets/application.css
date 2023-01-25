@@ -1,0 +1,15 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 1em;
+}
+
+.alert {
+  background: #ffff99;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.inline {
+  display: inline;
+}

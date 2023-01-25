@@ -1,0 +1,2 @@
+0.0 - 220121 Launch of project
+0.1 - 220122 Lession 2 revision in Delta SkyClub
